@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: white;
+
+}
+
+.nav {
+    display: flex;
+    height: 50px;
+}
+
+.nav ul li {
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    margin: 25px 15px 0 20px;
+}
+
+.nav ul li a {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.nav ul li a:hover {
+    color: gold;
+    transition: 0.4s;
+
+}
+
+.logo {
+    color: aliceblue;
+    padding: 20px 25px 25px 20px;
+    margin-left: 15px;
+    color: black;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(body.jpg);
+    background-size: cover;
+    background-position: top left;
+
+
+}
+
+.container {
+
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container2 {
+    display: inline-block;
+    color: white;
+    font-size: 45px;
+    margin-top: 20vh;
+    margin-left: 28vh;
+
+}
+
+span {
+    color: gold;
+}
+
+h2 {
+   
+    color: aliceblue;
+}
+
+
+ button {
+    display: inline-block;
+    color: white;
+    background-color: gold;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border-radius: 15px;
+} 
+
+
+button.cn a {
+    color: white;
+    text-decoration: none;
+
+}
+
+button.cn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+} 
+
+.form {
+    color: aliceblue;
+    width: 250px;
+    /* height: 380px; */
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline;
+    text-align: center;
+  
+}
+
+.form a {
+    color: white;
+    text-decoration: none;
+}
+
+.form h2 {
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: gold;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form h2:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    /* background: white; */
+    border-radius: 20px;
+    /* border-bottom: 1px gold; */
+    /* border-top: none; */
+    /* border-left: none; */
+    /* border-right: none; */
+    color: aliceblue;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-family: sans-serif;
+}
+.lin {
+    margin-top: 22px
+}
+
+.link {
+
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
